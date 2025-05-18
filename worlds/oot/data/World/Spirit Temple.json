@@ -74,13 +74,15 @@
                 (is_child and has_projectile(child) and
                     (Small_Key_Spirit_Temple, 5)) or
                 (is_adult and has_projectile(adult) and
-                    ((Small_Key_Spirit_Temple, 3) or spirit_temple_shortcuts)) or
+                    ((Small_Key_Spirit_Temple, 3) or spirit_temple_shortcuts or
+                    ((Small_Key_Spirit_Temple, 2) and free_bombchu_drops))) or
                 has_projectile(both)",
             "Spirit Temple Child Climb East Chest": "
                 (is_child and has_projectile(child) and
                     (Small_Key_Spirit_Temple, 5)) or
                 (is_adult and has_projectile(adult) and
-                    ((Small_Key_Spirit_Temple, 3) or spirit_temple_shortcuts)) or
+                    ((Small_Key_Spirit_Temple, 3) or spirit_temple_shortcuts or
+                    ((Small_Key_Spirit_Temple, 2) and free_bombchu_drops))) or
                 has_projectile(both)",
             "Spirit Temple Child Climb Pot": "True",
             "Spirit Temple GS Sun on Floor Room": "
@@ -88,6 +90,7 @@
                     (Small_Key_Spirit_Temple, 5)) or
                 (is_adult and (has_projectile(adult) or can_take_damage) and
                     ((Small_Key_Spirit_Temple, 3) or spirit_temple_shortcuts or
+                    ((Small_Key_Spirit_Temple, 2) and free_bombchu_drops))) or
                 has_projectile(both) or can_use(Dins_Fire) or
                 (can_take_damage and (Sticks or Kokiri_Sword or has_projectile(child)))"
         },
